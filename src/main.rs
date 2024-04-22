@@ -15,8 +15,6 @@ impl MessageHandler<UserCreatedEventMessage> for UserCreatedHandler {
         let ten_millis = time::Duration::from_millis(1000);
         let now = time::Instant::now();
 
-        // thread::sleep(ten_millis);
-
         println!("In Shabhi's (2206083741) Computer [129500004y]. Message received: {:?}", message);
         Ok(())
     }
