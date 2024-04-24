@@ -18,4 +18,8 @@ the second guest, and what is localhost:5672 is for?
 
 <a href="https://ibb.co/bNx34xt"><img src="https://i.ibb.co/MPbhzbd/BEFORE.png" alt="BEFORE" border="0"></a>
 
+# 3 subsriber 
+<a href="https://ibb.co/FgyJYC2"><img src="https://i.ibb.co/HnbYP36/Whats-App-Image-2024-04-24-at-16-48-24.jpg" alt="Whats-App-Image-2024-04-24-at-16-48-24" border="0"></a>
 
+
+Ketika saya menjalankan cargo run sebanyak 3 kali di tiga console yang berbeda pada subscriber dan cargo run sebanyak 4 kali pada publisher, terlihat bahwa spike dari message queue berkurang. Hal ini menandakan penanganan pesan lebih cepat daripada sebelumnya karena request yang diterima queue akan dibagi-bagi untuk ditangani oleh ketiga subscriber.
